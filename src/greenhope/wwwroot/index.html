@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -34,7 +34,7 @@
 			  		<a href="https://twitter.com/intent/tweet?text=Please give generously to St. Patrick's Refugee Challenge" target="_blank"><img src="img/ammado-st-patricks-refugee-challenge-tweet.png" class="donate-but center-block" alt=""/></a> 
 			  	  </div>
 				  <div class="col-sm-4">
-				  	<div id="ammadoCustomButton"><img id="ammadoDonateButton" class="donate-but text-center center-block" border="0" src="http://www.pagesetup.co.uk/dev/ammado/img/ammado-st-patricks-refugee-challenge-donate.png"></div>
+				  	<div id="ammadoCustomButton"><img id="ammadoDonateButton" class="donate-but text-center center-block" border="0" src="/img/ammado-st-patricks-refugee-challenge-donate.png"></div>
 					<script type="text/javascript">// <![CDATA[
 					var s = document.createElement('script'); s.type='text/javascript'; s.async=true;s.src='https://www.ammado.com/company/193189/givingwidget/embed.js?renderTo=ammadoCustomButton';var f = document.getElementsByTagName('script')[0]; f.parentNode.insertBefore(s, f);
 					// ]]></script>
@@ -47,7 +47,7 @@
 	  <div class="row">
 		  <div class="jumbotron">
 		  	<div class="container">
-	  		  <div class="col-sm-6 pull-right">
+	  		  <div class="col-sm-7 pull-left">
 				  <p>This St Patrick’s Day, we are supporting those going through the same plight that the Irish faced 160 years ago, and showing the world how people can successfully integrate into and enrich their adoptive countries. During the famine, millions of Irish Refugees fled worldwide in search of safe harbor. We are encouraging people around the world to support the many non-profits helping Refugees.</p>
 				  <p>Click donate above and choose which of our partner non-profits you wish to contribute to, or start your own fundraiser below. Remember to post your #greenhope picture to encourage others to do the same. Slainte</p>
              		<div class="col-sm-4">
@@ -88,40 +88,52 @@
 	</div>
 	<!-- Main Container -->
 	<div class="container white">  
+	<h4 class="text-center" style="padding: 20px 0 0 0;">Beneficiaries:</h4>
   	<!-- Primary Sponsors -->
-  	<div class="row" style="padding: 10px 0 20px 0;">
-		<div class="col-sm-10 col-sm-offset-1">
-		<h4 class="text-center">Beneficiaries:</h4>
-			<div class="carousel slide" id="myCarousel2">
-				<div class="carousel-inner">
-					<div class="item active">
-							<ul class="thumbnails">
-								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/care.jpg" alt=""></div></li>
-								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/concern.jpg" alt=""></div></li>
-								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/cross.jpg" alt=""></div></li>
-								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/moas.jpg" alt=""></div></li>
-							</ul>
-					  </div><!-- /Slide1 --> 
-					  <div class="item">
-							<ul class="thumbnails">
-								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/oxfam.jpg" alt=""></div></li>
-								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/redcross.jpg" alt=""></div></li>
-								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/refugee.jpg" alt=""></div></li>
-								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/rescue.jpg" alt=""></div></li>
-							</ul>
-					  </div><!-- /Slide2 -->
-					  <div class="item">
-							<ul class="thumbnails">
-								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/savethechildren.jpg" alt=""></div></li>
-								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/unhcr.jpg" alt=""></div></li>
-								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/gaa.jpg" alt=""></div></li>
-								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/libs.jpg" alt=""></div></li>
-							</ul>
-					  </div><!-- /Slide3 -->
-				</div>
-			</div><!-- /#myCarousel -->
+  	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+    	<div class="col-sm-10 col-sm-offset-1">
+      	<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/rescue.jpg" alt=""></div></li>
+		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/unhcr.jpg" alt=""></div></li>
+		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/oxfam.jpg" alt=""></div></li>
+		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/cross.jpg" alt=""></div></li>
 		</div>
-	</div>
+    </div>
+    <div class="item">
+    	<div class="col-sm-10 col-sm-offset-1">
+      	<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/care.jpg" alt=""></div></li>
+		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/concern.jpg" alt=""></div></li>
+		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/refugee.jpg" alt=""></div></li>
+		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/savethechildren.jpg" alt=""></div></li>
+		</div>
+    </div>
+    <div class="item">
+    	<div class="col-sm-10 col-sm-offset-1">
+		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/redcross.jpg" alt=""></div></li>
+		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/moas.jpg" alt=""></div></li>
+		</div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 	<hr>
 	<!-- Secondary Sponsors -->
 	<div class="row" style="padding: 10px 0 0 0;">
@@ -132,31 +144,17 @@
 					<div class="item active">
 							<ul class="thumbnails">
 								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/jameson.jpg" alt=""></div></li>
-								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/westernunion.jpg" alt=""></div></li>
 								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/gaa.jpg" alt=""></div></li>
+								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/westernunion.jpg" alt=""></div></li>
 								<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/ammado.jpg" alt=""></div></li>
 							</ul>
-					  </div><!-- /Slide1 --> 
-					  <!--<div class="item">
-							<ul class="thumbnails">
-								<li class="col-sm-4 col-xs-6"><div class="thumbnail"><img src="img/sponsors/jameson.jpg" alt=""></div></li>
-								<li class="col-sm-4 col-xs-6"><div class="thumbnail"><img src="img/sponsors/westernunion.jpg" alt=""></div></li>
-								<li class="col-sm-4 col-xs-6"><div class="thumbnail"><img src="img/sponsors/ammado.jpg" alt=""></div></li>
-							</ul>
-					  </div><!-- /Slide2 -->
-					  <!--<div class="item">
-							<ul class="thumbnails">
-								<li class="col-sm-4 col-xs-6"><div class="thumbnail"><img src="img/sponsors/jameson.jpg" alt=""></div></li>
-								<li class="col-sm-4 col-xs-6"><div class="thumbnail"><img src="img/sponsors/westernunion.jpg" alt=""></div></li>
-								<li class="col-sm-4 col-xs-6"><div class="thumbnail"><img src="img/sponsors/ammado.jpg" alt=""></div></li>
-							</ul>
-					  </div><!-- /Slide3 -->
+					  </div>
 				</div>
 			</div><!-- /#myCarousel -->
 		</div>
 	</div>
 	<!-- Tertiary Sponsors -->
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -166,26 +164,30 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active col-sm-10 col-sm-offet-1">
-      	<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/oxfam.jpg" alt=""></div></li>
-		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/redcross.jpg" alt=""></div></li>
-		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/refugee.jpg" alt=""></div></li>
-		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/rescue.jpg" alt=""></div></li>
+    <div class="item active">
+    	<div class="col-sm-10 col-sm-offset-1">
+      	<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/barber.jpg" alt=""></div></li>
+		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/citytours.jpg" alt=""></div></li>
+		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/pagesetup.jpg" alt=""></div></li>
+		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/libs.jpg" alt=""></div></li>
+		</div>
     </div>
     <div class="item">
-      	<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/oxfam.jpg" alt=""></div></li>
-		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/redcross.jpg" alt=""></div></li>
-		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/refugee.jpg" alt=""></div></li>
-		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/rescue.jpg" alt=""></div></li>
+    	<div class="col-sm-10 col-sm-offset-1">
+      	<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/belfastmarketing.jpg" alt=""></div></li>
+		<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/merrion.jpg" alt=""></div></li>
+   			<li class="col-sm-3 col-xs-6"><div class="thumbnail"><img src="img/sponsors/scileads.jpg" alt=""></div></li>
+
+    	</div>
     </div>
   </div>
 
   <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+  <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -225,7 +227,7 @@
 		  	<p class="text-center black blk-pad">65 million people forced from their homes, including more than 21 million refugees, half of whom are under the age of 18. Nearly 34,000 people have to flee EVERY DAY because of conflict and persecution</p>
 		  </div>
 	  </div>
-	  <footer class="text-center">&copy; 2017 ammado AG. <nobr>Website by <a href="http://www.pagesetup.co.uk/" target="_blank">Page Setup.</a></nobr></footer> 
+	  <footer class="text-center">&copy; 2017 ammado AG. <!--<nobr>Website by <a href="http://www.pagesetup.co.uk/" target="_blank">Page Setup.</a></nobr>--></footer> 
 	    <script src="js/jquery-1.11.3.min.js"></script>
   		<script src="js/bootstrap-3.3.7.js"></script>
 	    <script>
