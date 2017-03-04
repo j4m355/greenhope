@@ -27,11 +27,26 @@ namespace greenhope
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.Run(async (context) =>
+            else
             {
-                await context.Response.WriteAsync("Hello World!");
-            });
+                app.Use(async (context, next) =>
+                {
+                    if (context.Request.IsHttps)
+                    {
+                        await next();
+                    }
+                    else
+                    {
+                        var withHttps = "https://" + context.Request.Host + context.Request.Path;
+                        context.Response.Redirect(withHttps);
+                    }
+                });
+            }
+       
+
+
+            app.UseDefaultFiles("");
+            app.UseStaticFiles();
         }
     }
 }
