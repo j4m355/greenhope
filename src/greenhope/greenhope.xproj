@@ -4,7 +4,6 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
-
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
     <ProjectGuid>6dcae4a8-b607-45f8-8595-5e3146f3b480</ProjectGuid>
@@ -13,9 +12,10 @@
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
   </PropertyGroup>
-
   <PropertyGroup>
     <SchemaVersion>2.0</SchemaVersion>
+    <ApplicationInsightsResourceId>/subscriptions/491fd395-7b83-40b6-bfa0-f8ff7acbd940/resourcegroups/greenhope20170302080149ResourceGroup/providers/microsoft.insights/components/greenhope20170302080149</ApplicationInsightsResourceId>
+    <ApplicationInsightsAnnotationResourceId>/subscriptions/491fd395-7b83-40b6-bfa0-f8ff7acbd940/resourceGroups/greenhope20170302080149ResourceGroup/providers/microsoft.insights/components/greenhope20170302080149</ApplicationInsightsAnnotationResourceId>
   </PropertyGroup>
   <ItemGroup>
     <DnxInvisibleContent Include="bower.json" />
